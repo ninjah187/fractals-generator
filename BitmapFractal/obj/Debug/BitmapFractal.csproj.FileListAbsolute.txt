@@ -1,0 +1,24 @@
+D:\Pisane\C#\Fractals\BitmapFractal\bin\Debug\BitmapFractal.exe.config
+D:\Pisane\C#\Fractals\BitmapFractal\obj\Debug\BitmapFractal.csprojResolveAssemblyReference.cache
+D:\Pisane\C#\Fractals\BitmapFractal\bin\Debug\BitmapFractal.exe
+D:\Pisane\C#\Fractals\BitmapFractal\bin\Debug\BitmapFractal.pdb
+D:\Pisane\C#\Fractals\BitmapFractal\bin\Debug\Fractals.exe
+D:\Pisane\C#\Fractals\BitmapFractal\bin\Debug\Fractals.pdb
+D:\Pisane\C#\Fractals\BitmapFractal\obj\Debug\BitmapFractal.exe
+D:\Pisane\C#\Fractals\BitmapFractal\obj\Debug\BitmapFractal.pdb
+D:\Pisane\C#\Fractals — kopia\BitmapFractal\bin\Debug\BitmapFractal.exe.config
+D:\Pisane\C#\Fractals — kopia\BitmapFractal\obj\Debug\BitmapFractal.exe
+D:\Pisane\C#\Fractals — kopia\BitmapFractal\obj\Debug\BitmapFractal.pdb
+D:\Pisane\C#\Fractals — kopia\BitmapFractal\obj\Debug\BitmapFractal.csprojResolveAssemblyReference.cache
+D:\Pisane\C#\Fractals — kopia\BitmapFractal\bin\Debug\BitmapFractal.exe
+D:\Pisane\C#\Fractals — kopia\BitmapFractal\bin\Debug\BitmapFractal.pdb
+D:\Pisane\C#\Fractals — kopia\BitmapFractal\bin\Debug\Fractals.exe
+D:\Pisane\C#\Fractals — kopia\BitmapFractal\bin\Debug\Fractals.pdb
+D:\Pisane\C#\Fractals — kopia — kopia\BitmapFractal\bin\Debug\BitmapFractal.exe.config
+D:\Pisane\C#\Fractals — kopia — kopia\BitmapFractal\bin\Debug\BitmapFractal.exe
+D:\Pisane\C#\Fractals — kopia — kopia\BitmapFractal\bin\Debug\BitmapFractal.pdb
+D:\Pisane\C#\Fractals — kopia — kopia\BitmapFractal\bin\Debug\Fractals.exe
+D:\Pisane\C#\Fractals — kopia — kopia\BitmapFractal\bin\Debug\Fractals.pdb
+D:\Pisane\C#\Fractals — kopia — kopia\BitmapFractal\obj\Debug\BitmapFractal.csprojResolveAssemblyReference.cache
+D:\Pisane\C#\Fractals — kopia — kopia\BitmapFractal\obj\Debug\BitmapFractal.exe
+D:\Pisane\C#\Fractals — kopia — kopia\BitmapFractal\obj\Debug\BitmapFractal.pdb

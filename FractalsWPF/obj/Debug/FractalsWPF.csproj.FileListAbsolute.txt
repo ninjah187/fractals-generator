@@ -1,0 +1,51 @@
+D:\Pisane\C#\Fractals\FractalsWPF\bin\Debug\FractalsWPF.exe.config
+D:\Pisane\C#\Fractals\FractalsWPF\bin\Debug\FractalsWPF.exe
+D:\Pisane\C#\Fractals\FractalsWPF\bin\Debug\FractalsWPF.pdb
+D:\Pisane\C#\Fractals\FractalsWPF\obj\Debug\FractalsWPF.csprojResolveAssemblyReference.cache
+D:\Pisane\C#\Fractals\FractalsWPF\obj\Debug\MainWindow.baml
+D:\Pisane\C#\Fractals\FractalsWPF\obj\Debug\MainWindow.g.cs
+D:\Pisane\C#\Fractals\FractalsWPF\obj\Debug\App.g.cs
+D:\Pisane\C#\Fractals\FractalsWPF\obj\Debug\FractalsWPF_MarkupCompile.cache
+D:\Pisane\C#\Fractals\FractalsWPF\obj\Debug\FractalsWPF.g.resources
+D:\Pisane\C#\Fractals\FractalsWPF\obj\Debug\FractalsWPF.Properties.Resources.resources
+D:\Pisane\C#\Fractals\FractalsWPF\obj\Debug\FractalsWPF.csproj.GenerateResource.Cache
+D:\Pisane\C#\Fractals\FractalsWPF\obj\Debug\FractalsWPF.exe
+D:\Pisane\C#\Fractals\FractalsWPF\obj\Debug\FractalsWPF.pdb
+D:\Pisane\C#\Fractals\FractalsWPF\bin\Debug\BitmapFractal.exe
+D:\Pisane\C#\Fractals\FractalsWPF\bin\Debug\Fractals.exe
+D:\Pisane\C#\Fractals\FractalsWPF\bin\Debug\BitmapFractal.pdb
+D:\Pisane\C#\Fractals\FractalsWPF\bin\Debug\Fractals.pdb
+D:\Pisane\C#\Fractals — kopia\FractalsWPF\bin\Debug\FractalsWPF.exe.config
+D:\Pisane\C#\Fractals — kopia\FractalsWPF\bin\Debug\FractalsWPF.exe
+D:\Pisane\C#\Fractals — kopia\FractalsWPF\bin\Debug\FractalsWPF.pdb
+D:\Pisane\C#\Fractals — kopia\FractalsWPF\bin\Debug\BitmapFractal.exe
+D:\Pisane\C#\Fractals — kopia\FractalsWPF\bin\Debug\Fractals.exe
+D:\Pisane\C#\Fractals — kopia\FractalsWPF\bin\Debug\BitmapFractal.pdb
+D:\Pisane\C#\Fractals — kopia\FractalsWPF\bin\Debug\Fractals.pdb
+D:\Pisane\C#\Fractals — kopia\FractalsWPF\obj\Debug\FractalsWPF.csprojResolveAssemblyReference.cache
+D:\Pisane\C#\Fractals — kopia\FractalsWPF\obj\Debug\MainWindow.baml
+D:\Pisane\C#\Fractals — kopia\FractalsWPF\obj\Debug\MainWindow.g.cs
+D:\Pisane\C#\Fractals — kopia\FractalsWPF\obj\Debug\App.g.cs
+D:\Pisane\C#\Fractals — kopia\FractalsWPF\obj\Debug\FractalsWPF_MarkupCompile.cache
+D:\Pisane\C#\Fractals — kopia\FractalsWPF\obj\Debug\FractalsWPF.g.resources
+D:\Pisane\C#\Fractals — kopia\FractalsWPF\obj\Debug\FractalsWPF.Properties.Resources.resources
+D:\Pisane\C#\Fractals — kopia\FractalsWPF\obj\Debug\FractalsWPF.csproj.GenerateResource.Cache
+D:\Pisane\C#\Fractals — kopia\FractalsWPF\obj\Debug\FractalsWPF.exe
+D:\Pisane\C#\Fractals — kopia\FractalsWPF\obj\Debug\FractalsWPF.pdb
+D:\Pisane\C#\Fractals — kopia — kopia\FractalsWPF\bin\Debug\FractalsWPF.exe.config
+D:\Pisane\C#\Fractals — kopia — kopia\FractalsWPF\obj\Debug\FractalsWPF.exe
+D:\Pisane\C#\Fractals — kopia — kopia\FractalsWPF\obj\Debug\FractalsWPF.pdb
+D:\Pisane\C#\Fractals — kopia — kopia\FractalsWPF\bin\Debug\FractalsWPF.exe
+D:\Pisane\C#\Fractals — kopia — kopia\FractalsWPF\bin\Debug\FractalsWPF.pdb
+D:\Pisane\C#\Fractals — kopia — kopia\FractalsWPF\bin\Debug\BitmapFractal.exe
+D:\Pisane\C#\Fractals — kopia — kopia\FractalsWPF\bin\Debug\Fractals.exe
+D:\Pisane\C#\Fractals — kopia — kopia\FractalsWPF\bin\Debug\BitmapFractal.pdb
+D:\Pisane\C#\Fractals — kopia — kopia\FractalsWPF\bin\Debug\Fractals.pdb
+D:\Pisane\C#\Fractals — kopia — kopia\FractalsWPF\obj\Debug\FractalsWPF.csprojResolveAssemblyReference.cache
+D:\Pisane\C#\Fractals — kopia — kopia\FractalsWPF\obj\Debug\MainWindow.baml
+D:\Pisane\C#\Fractals — kopia — kopia\FractalsWPF\obj\Debug\MainWindow.g.cs
+D:\Pisane\C#\Fractals — kopia — kopia\FractalsWPF\obj\Debug\App.g.cs
+D:\Pisane\C#\Fractals — kopia — kopia\FractalsWPF\obj\Debug\FractalsWPF_MarkupCompile.cache
+D:\Pisane\C#\Fractals — kopia — kopia\FractalsWPF\obj\Debug\FractalsWPF.g.resources
+D:\Pisane\C#\Fractals — kopia — kopia\FractalsWPF\obj\Debug\FractalsWPF.Properties.Resources.resources
+D:\Pisane\C#\Fractals — kopia — kopia\FractalsWPF\obj\Debug\FractalsWPF.csproj.GenerateResource.Cache

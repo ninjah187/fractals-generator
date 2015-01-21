@@ -1,0 +1,13 @@
+D:\Pisane\C#\Fractals\WindowFractals\bin\Debug\WindowFractals.exe.config
+D:\Pisane\C#\Fractals\WindowFractals\bin\Debug\WindowFractals.exe
+D:\Pisane\C#\Fractals\WindowFractals\bin\Debug\WindowFractals.pdb
+D:\Pisane\C#\Fractals\WindowFractals\bin\Debug\BitmapFractal.exe
+D:\Pisane\C#\Fractals\WindowFractals\bin\Debug\Fractals.exe
+D:\Pisane\C#\Fractals\WindowFractals\bin\Debug\BitmapFractal.pdb
+D:\Pisane\C#\Fractals\WindowFractals\bin\Debug\Fractals.pdb
+D:\Pisane\C#\Fractals\WindowFractals\obj\Debug\WindowFractals.csprojResolveAssemblyReference.cache
+D:\Pisane\C#\Fractals\WindowFractals\obj\Debug\WindowFractals.Form1.resources
+D:\Pisane\C#\Fractals\WindowFractals\obj\Debug\WindowFractals.Properties.Resources.resources
+D:\Pisane\C#\Fractals\WindowFractals\obj\Debug\WindowFractals.csproj.GenerateResource.Cache
+D:\Pisane\C#\Fractals\WindowFractals\obj\Debug\WindowFractals.exe
+D:\Pisane\C#\Fractals\WindowFractals\obj\Debug\WindowFractals.pdb
