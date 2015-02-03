@@ -85,7 +85,7 @@ namespace FractalsWPF
             JuliaSetCanvas.Visibility = Visibility.Visible;
         }
 
-        private void drawButton_Click(object sender, RoutedEventArgs e)
+        private void ResetWindow()
         {
             Drawer.Steps = 0;
 
@@ -96,6 +96,11 @@ namespace FractalsWPF
             saveBMPButton.IsEnabled = false;
             saveFractButton.IsEnabled = false;
             previewButton.IsEnabled = false;
+        }
+
+        private void drawButton_Click(object sender, RoutedEventArgs e)
+        {
+            ResetWindow();
 
             ColorMethodHandler colorHandler;
             Fractal fractal;
@@ -226,6 +231,52 @@ namespace FractalsWPF
 
             if (result == true)
             {
+                FractFile fractFile = new FractFile(ofd.FileName);
+                Fractal fractal = fractFile.Fractal;
+
+                d.Fractal = fractal;
+
+                //odczytuj to z FractFile
+
+                /*string scheme = "";
+                string fractalType = "";
+
+                if (fractal.ColorScheme == Coloring.Scheme1)
+                {
+                    scheme = "Scheme 1";
+                } else if (fractal.ColorScheme == Coloring.Scheme2)
+                {
+                    scheme = "Scheme 2";
+                } else if (fractal.ColorScheme == Coloring.RandomScheme)
+                {
+                    scheme = "Random";
+                }*/
+
+                ResetWindow();
+
+                foreach (ListBoxItem item in colorSchemeListBox.Items)
+                {
+                    if ((string) item.Content == fractFile.ColorScheme)
+                    {
+                        item.IsSelected = true;
+                        break;
+                    }
+                }
+
+                foreach (ListBoxItem item in fractalTypeListBox.Items)
+                {
+                    string fractType = "";
+                    if ((fractType = (string) item.Content) == fractFile.FractalType)
+                    {
+                        item.IsSelected = true;
+                        if (fractType == "Julia Set")
+                        {
+                            reTextBox.Text = fractFile.Re;
+                            imTextBox.Text = fractFile.Im;
+                        }
+                        break;
+                    }
+                }
 
             }
         }

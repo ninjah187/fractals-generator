@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using Fractals;
 
 namespace BitmapFractal
 {
@@ -11,10 +12,11 @@ namespace BitmapFractal
     {
         private FileStream fileStream;
 
-        private string fractalType = "";
-        private string colorScheme = "";
-        private string re = "";
-        private string im = "";
+        public string FractalType { get; private set; }
+        public string ColorScheme { get; private set; }
+        public string Re { get; set; }
+        public string Im { get; set; }
+        private Fractal fractal;
 
         private string savePath;
 
@@ -22,6 +24,11 @@ namespace BitmapFractal
         {
             get { return savePath; }
             set { savePath = value; }
+        }
+
+        public Fractal Fractal
+        {
+            get { return fractal; }
         }
 
         private FractFile()
@@ -33,21 +40,68 @@ namespace BitmapFractal
         {
             Type type = fractal.GetType();
             if (type == typeof(MandelbrotFractal))
-                fractalType = "mandelbrot";
+                FractalType = "Mandelbrot Set";
             if (type == typeof(JuliaSetFractal))
             {
-                fractalType = "julia";
+                FractalType = "Julia Set";
                 JuliaSetFractal frac = (JuliaSetFractal)fractal;
-                re = frac.Re.ToString();
-                im = frac.Im.ToString();
+                Re = frac.Re.ToString();
+                Im = frac.Im.ToString();
             }
 
             if (fractal.ColorScheme == Coloring.Scheme1)
-                colorScheme = "scheme1";
+                ColorScheme = "Scheme 1";
             if (fractal.ColorScheme == Coloring.Scheme2)
-                colorScheme = "scheme2";
+                ColorScheme = "Scheme 2";
             if (fractal.ColorScheme == Coloring.RandomScheme)
-                colorScheme = "random";
+                ColorScheme = "Random";
+
+            this.fractal = fractal;
+        }
+
+        public FractFile(string path)
+        {
+            Open(path);
+
+            ColorMethodHandler colorHandler = null;
+
+            switch (ColorScheme)
+            {
+                case "Scheme 1":
+                    colorHandler = Coloring.Scheme1;
+                    break;
+
+                case "Scheme 2":
+                    colorHandler = Coloring.Scheme2;
+                    break;
+
+                case "Random":
+                    colorHandler = Coloring.RandomScheme;
+                    break;
+
+                default:
+                    throw new InvalidOperationException();
+                    break;
+            }
+
+            switch (FractalType)
+            {
+                case "Mandelbrot Set":
+                    fractal = new MandelbrotFractal(colorHandler);
+                    break;
+
+                case "Julia Set":
+                    ComplexNumber c = new ComplexNumber(
+                        double.Parse(Re),
+                        double.Parse(Im)
+                        );
+                    fractal = new JuliaSetFractal(c, colorHandler);
+                    break;
+
+                default:
+                    throw new InvalidOperationException();
+                    break;
+            }
         }
 
         /*public void Foo(int n = 1)
@@ -60,12 +114,12 @@ namespace BitmapFractal
             fileStream = new FileStream(savePath, FileMode.OpenOrCreate,
                                         FileAccess.Write, FileShare.Write);
             StreamWriter sw = new StreamWriter(fileStream);
-            sw.WriteLine(fractalType);
-            sw.WriteLine(colorScheme);
-            if (fractalType == "julia")
+            sw.WriteLine(FractalType);
+            sw.WriteLine(ColorScheme);
+            if (FractalType == "Julia Set")
             {
-                sw.WriteLine(re);
-                sw.WriteLine(im);
+                sw.WriteLine(Re);
+                sw.WriteLine(Im);
             }
             sw.Close();
             fileStream.Close();
@@ -77,10 +131,28 @@ namespace BitmapFractal
                                         FileAccess.Read, FileShare.Read);
             StreamReader sr = new StreamReader(fileStream);
 
-            fractalType = sr.ReadLine();
+            FractalType = sr.ReadLine();
+            ColorScheme = sr.ReadLine();
+            Re = sr.ReadLine();
+            Im = sr.ReadLine();
 
             sr.Close();
             fileStream.Close();
         }
+
+        /*public void Open(string path)
+        {
+            fileStream = new FileStream(path, FileMode.Open,
+                                        FileAccess.Read, FileShare.Read);
+            StreamReader sr = new StreamReader(fileStream);
+
+            fractalType = sr.ReadLine();
+            colorScheme = sr.ReadLine();
+            re = sr.ReadLine();
+            im = sr.ReadLine();
+
+            sr.Close();
+            fileStream.Close();
+        }*/
     }
 }
